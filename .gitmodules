@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/SnapKit"]
+	path = BaseDataSource/Carthage/Checkouts/SnapKit
+	url = https://github.com/SnapKit/SnapKit.git

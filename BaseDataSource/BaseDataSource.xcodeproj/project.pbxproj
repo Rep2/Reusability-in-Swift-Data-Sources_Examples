@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F654816721834F710010A15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654816621834F710010A15D /* AppDelegate.swift */; };
-		F654816921834F710010A15D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654816821834F710010A15D /* ViewController.swift */; };
+		F654816921834F710010A15D /* BaseDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654816821834F710010A15D /* BaseDataSourceViewController.swift */; };
 		F654816E21834F740010A15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F654816D21834F740010A15D /* Assets.xcassets */; };
 		F654817121834F740010A15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F654816F21834F740010A15D /* LaunchScreen.storyboard */; };
+		F6548195218350530010A15D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548194218350530010A15D /* Meal.swift */; };
+		F6548197218350790010A15D /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548196218350790010A15D /* MealTableViewCell.swift */; };
+		F654819B218353D20010A15D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F654819A218353D20010A15D /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +36,7 @@
 /* Begin PBXFileReference section */
 		F654816321834F710010A15D /* BaseDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F654816621834F710010A15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F654816821834F710010A15D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F654816821834F710010A15D /* BaseDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataSourceViewController.swift; sourceTree = "<group>"; };
 		F654816D21834F740010A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F654817021834F740010A15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F654817221834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +44,9 @@
 		F654817D21834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F654818221834F740010A15D /* BaseDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseDataSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F654818821834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6548194218350530010A15D /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F6548196218350790010A15D /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		F654819A218353D20010A15D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F654819B218353D20010A15D /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 				F654817A21834F740010A15D /* BaseDataSourceTests */,
 				F654818521834F740010A15D /* BaseDataSourceUITests */,
 				F654816421834F710010A15D /* Products */,
+				F6548199218353D20010A15D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,10 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				F654816621834F710010A15D /* AppDelegate.swift */,
-				F654816821834F710010A15D /* ViewController.swift */,
+				F654816821834F710010A15D /* BaseDataSourceViewController.swift */,
 				F654816D21834F740010A15D /* Assets.xcassets */,
 				F654816F21834F740010A15D /* LaunchScreen.storyboard */,
 				F654817221834F740010A15D /* Info.plist */,
+				F6548194218350530010A15D /* Meal.swift */,
+				F6548196218350790010A15D /* MealTableViewCell.swift */,
 			);
 			path = BaseDataSource;
 			sourceTree = "<group>";
@@ -116,6 +126,14 @@
 			path = BaseDataSourceUITests;
 			sourceTree = "<group>";
 		};
+		F6548199218353D20010A15D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F654819A218353D20010A15D /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +144,7 @@
 				F654815F21834F710010A15D /* Sources */,
 				F654816021834F710010A15D /* Frameworks */,
 				F654816121834F710010A15D /* Resources */,
+				F6548198218353A10010A15D /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -241,12 +260,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F6548198218353A10010A15D /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F654815F21834F710010A15D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F654816921834F710010A15D /* ViewController.swift in Sources */,
+				F6548197218350790010A15D /* MealTableViewCell.swift in Sources */,
+				F6548195218350530010A15D /* Meal.swift in Sources */,
+				F654816921834F710010A15D /* BaseDataSourceViewController.swift in Sources */,
 				F654816721834F710010A15D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +457,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BaseDataSource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,6 +479,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BaseDataSource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
