@@ -1,0 +1,3 @@
+github "Rep2/CellSource" "v0.1.1"
+github "Rep2/TableViewCellSimpleDequeue" "v0.1.1"
+github "SnapKit/SnapKit" "4.2.0"
