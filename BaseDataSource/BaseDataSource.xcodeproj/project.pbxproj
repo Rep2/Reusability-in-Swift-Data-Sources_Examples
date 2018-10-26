@@ -14,8 +14,6 @@
 		F6548195218350530010A15D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548194218350530010A15D /* Movie.swift */; };
 		F6548197218350790010A15D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548196218350790010A15D /* MovieTableViewCell.swift */; };
 		F654819B218353D20010A15D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F654819A218353D20010A15D /* SnapKit.framework */; };
-		F654819D2183571A0010A15D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654819C2183571A0010A15D /* UITableView.swift */; };
-		F654819F2183572F0010A15D /* ReusablePresenterSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654819E2183572F0010A15D /* ReusablePresenterSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		F6548194218350530010A15D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F6548196218350790010A15D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		F654819A218353D20010A15D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
-		F654819C2183571A0010A15D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		F654819E2183572F0010A15D /* ReusablePresenterSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePresenterSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +106,6 @@
 				F654817221834F740010A15D /* Info.plist */,
 				F6548194218350530010A15D /* Movie.swift */,
 				F6548196218350790010A15D /* MovieTableViewCell.swift */,
-				F654819C2183571A0010A15D /* UITableView.swift */,
-				F654819E2183572F0010A15D /* ReusablePresenterSource.swift */,
 			);
 			path = BaseDataSource;
 			sourceTree = "<group>";
@@ -296,8 +290,6 @@
 			files = (
 				F6548197218350790010A15D /* MovieTableViewCell.swift in Sources */,
 				F6548195218350530010A15D /* Movie.swift in Sources */,
-				F654819F2183572F0010A15D /* ReusablePresenterSource.swift in Sources */,
-				F654819D2183571A0010A15D /* UITableView.swift in Sources */,
 				F654816921834F710010A15D /* BaseDataSourceViewController.swift in Sources */,
 				F654816721834F710010A15D /* AppDelegate.swift in Sources */,
 			);
