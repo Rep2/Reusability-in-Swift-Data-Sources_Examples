@@ -26,6 +26,8 @@ class BaseDataSourceViewController: UIViewController {
     }
 
     func setupViewController() {
+        title = "Basic"
+        
         tableView.register(cell: MovieTableViewCell.self, reusableCellSource: .class)
 
         view.addSubview(tableView)

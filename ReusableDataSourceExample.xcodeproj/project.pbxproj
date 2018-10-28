@@ -36,15 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F654816321834F710010A15D /* BaseDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F654816321834F710010A15D /* ReusableDataSourceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableDataSourceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F654816621834F710010A15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F654816821834F710010A15D /* BaseDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataSourceViewController.swift; sourceTree = "<group>"; };
 		F654816D21834F740010A15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F654817021834F740010A15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F654817221834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F654817721834F740010A15D /* BaseDataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseDataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F654817721834F740010A15D /* ReusableDataSourceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableDataSourceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F654817D21834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F654818221834F740010A15D /* BaseDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseDataSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F654818221834F740010A15D /* ReusableDataSourceExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableDataSourceExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F654818821834F740010A15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6548194218350530010A15D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F6548196218350790010A15D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
@@ -84,9 +84,9 @@
 		F654815A21834F710010A15D = {
 			isa = PBXGroup;
 			children = (
-				F654816521834F710010A15D /* BaseDataSource */,
-				F654817A21834F740010A15D /* BaseDataSourceTests */,
-				F654818521834F740010A15D /* BaseDataSourceUITests */,
+				F654816521834F710010A15D /* ReusableDataSourceExample */,
+				F654817A21834F740010A15D /* ReusableDataSourceExampleTests */,
+				F654818521834F740010A15D /* ReusableDataSourceExampleUITests */,
 				F654816421834F710010A15D /* Products */,
 				F6548199218353D20010A15D /* Frameworks */,
 			);
@@ -95,14 +95,14 @@
 		F654816421834F710010A15D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F654816321834F710010A15D /* BaseDataSource.app */,
-				F654817721834F740010A15D /* BaseDataSourceTests.xctest */,
-				F654818221834F740010A15D /* BaseDataSourceUITests.xctest */,
+				F654816321834F710010A15D /* ReusableDataSourceExample.app */,
+				F654817721834F740010A15D /* ReusableDataSourceExampleTests.xctest */,
+				F654818221834F740010A15D /* ReusableDataSourceExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F654816521834F710010A15D /* BaseDataSource */ = {
+		F654816521834F710010A15D /* ReusableDataSourceExample */ = {
 			isa = PBXGroup;
 			children = (
 				F654816621834F710010A15D /* AppDelegate.swift */,
@@ -113,23 +113,23 @@
 				F6548194218350530010A15D /* Movie.swift */,
 				F6548196218350790010A15D /* MovieTableViewCell.swift */,
 			);
-			path = BaseDataSource;
+			path = ReusableDataSourceExample;
 			sourceTree = "<group>";
 		};
-		F654817A21834F740010A15D /* BaseDataSourceTests */ = {
+		F654817A21834F740010A15D /* ReusableDataSourceExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				F654817D21834F740010A15D /* Info.plist */,
 			);
-			path = BaseDataSourceTests;
+			path = ReusableDataSourceExampleTests;
 			sourceTree = "<group>";
 		};
-		F654818521834F740010A15D /* BaseDataSourceUITests */ = {
+		F654818521834F740010A15D /* ReusableDataSourceExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F654818821834F740010A15D /* Info.plist */,
 			);
-			path = BaseDataSourceUITests;
+			path = ReusableDataSourceExampleUITests;
 			sourceTree = "<group>";
 		};
 		F6548199218353D20010A15D /* Frameworks */ = {
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F654816221834F710010A15D /* BaseDataSource */ = {
+		F654816221834F710010A15D /* ReusableDataSourceExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F654818B21834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSource" */;
+			buildConfigurationList = F654818B21834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExample" */;
 			buildPhases = (
 				F654815F21834F710010A15D /* Sources */,
 				F654816021834F710010A15D /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = BaseDataSource;
+			name = ReusableDataSourceExample;
 			productName = BaseDataSource;
-			productReference = F654816321834F710010A15D /* BaseDataSource.app */;
+			productReference = F654816321834F710010A15D /* ReusableDataSourceExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F654817621834F740010A15D /* BaseDataSourceTests */ = {
+		F654817621834F740010A15D /* ReusableDataSourceExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F654818E21834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSourceTests" */;
+			buildConfigurationList = F654818E21834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExampleTests" */;
 			buildPhases = (
 				F654817321834F740010A15D /* Sources */,
 				F654817421834F740010A15D /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				F654817921834F740010A15D /* PBXTargetDependency */,
 			);
-			name = BaseDataSourceTests;
+			name = ReusableDataSourceExampleTests;
 			productName = BaseDataSourceTests;
-			productReference = F654817721834F740010A15D /* BaseDataSourceTests.xctest */;
+			productReference = F654817721834F740010A15D /* ReusableDataSourceExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F654818121834F740010A15D /* BaseDataSourceUITests */ = {
+		F654818121834F740010A15D /* ReusableDataSourceExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F654819121834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSourceUITests" */;
+			buildConfigurationList = F654819121834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExampleUITests" */;
 			buildPhases = (
 				F654817E21834F740010A15D /* Sources */,
 				F654817F21834F740010A15D /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				F654818421834F740010A15D /* PBXTargetDependency */,
 			);
-			name = BaseDataSourceUITests;
+			name = ReusableDataSourceExampleUITests;
 			productName = BaseDataSourceUITests;
-			productReference = F654818221834F740010A15D /* BaseDataSourceUITests.xctest */;
+			productReference = F654818221834F740010A15D /* ReusableDataSourceExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F654815E21834F710010A15D /* Build configuration list for PBXProject "BaseDataSource" */;
+			buildConfigurationList = F654815E21834F710010A15D /* Build configuration list for PBXProject "ReusableDataSourceExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F654816221834F710010A15D /* BaseDataSource */,
-				F654817621834F740010A15D /* BaseDataSourceTests */,
-				F654818121834F740010A15D /* BaseDataSourceUITests */,
+				F654816221834F710010A15D /* ReusableDataSourceExample */,
+				F654817621834F740010A15D /* ReusableDataSourceExampleTests */,
+				F654818121834F740010A15D /* ReusableDataSourceExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		F654817921834F740010A15D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F654816221834F710010A15D /* BaseDataSource */;
+			target = F654816221834F710010A15D /* ReusableDataSourceExample */;
 			targetProxy = F654817821834F740010A15D /* PBXContainerItemProxy */;
 		};
 		F654818421834F740010A15D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F654816221834F710010A15D /* BaseDataSource */;
+			target = F654816221834F710010A15D /* ReusableDataSourceExample */;
 			targetProxy = F654818321834F740010A15D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,12 +471,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = BaseDataSource/Info.plist;
+				INFOPLIST_FILE = ReusableDataSourceExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rep.BaseDataSource;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rep.ReusableDataSourceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,12 +493,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = BaseDataSource/Info.plist;
+				INFOPLIST_FILE = ReusableDataSourceExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rep.BaseDataSource;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rep.ReusableDataSourceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseDataSource.app/BaseDataSource";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableDataSourceExample.app/ReusableDataSourceExample";
 			};
 			name = Debug;
 		};
@@ -543,7 +543,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaseDataSource.app/BaseDataSource";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReusableDataSourceExample.app/ReusableDataSourceExample";
 			};
 			name = Release;
 		};
@@ -590,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F654815E21834F710010A15D /* Build configuration list for PBXProject "BaseDataSource" */ = {
+		F654815E21834F710010A15D /* Build configuration list for PBXProject "ReusableDataSourceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F654818921834F740010A15D /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F654818B21834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSource" */ = {
+		F654818B21834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F654818C21834F740010A15D /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F654818E21834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSourceTests" */ = {
+		F654818E21834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F654818F21834F740010A15D /* Debug */,
@@ -617,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F654819121834F740010A15D /* Build configuration list for PBXNativeTarget "BaseDataSourceUITests" */ = {
+		F654819121834F740010A15D /* Build configuration list for PBXNativeTarget "ReusableDataSourceExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F654819221834F740010A15D /* Debug */,
