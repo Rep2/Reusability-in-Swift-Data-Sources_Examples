@@ -1,0 +1,11 @@
+framework module TableViewCellSimpleDequeue {
+  umbrella header "TableViewCellSimpleDequeue.h"
+
+  export *
+  module * { export * }
+}
+
+module TableViewCellSimpleDequeue.Swift {
+    header "TableViewCellSimpleDequeue-Swift.h"
+    requires objc
+}

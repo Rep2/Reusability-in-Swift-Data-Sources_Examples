@@ -12,7 +12,7 @@ class MovieTableViewCell: UITableViewCell {
         return label
     }()
 
-    func setupView() {
+    func setupCell() {
         addSubview(nameLabel)
         addSubview(releaseYearLabel)
 
@@ -22,7 +22,7 @@ class MovieTableViewCell: UITableViewCell {
 
         releaseYearLabel.snp.makeConstraints { make in
             make.left.right.bottom.equalToSuperview().inset(UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 16))
-            make.top.equalTo(nameLabel.snp.bottom).inset(4)
+            make.top.equalTo(nameLabel.snp.bottom)
         }
     }
 }

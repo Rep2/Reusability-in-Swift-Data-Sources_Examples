@@ -14,6 +14,8 @@
 		F6548195218350530010A15D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548194218350530010A15D /* Movie.swift */; };
 		F6548197218350790010A15D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6548196218350790010A15D /* MovieTableViewCell.swift */; };
 		F654819B218353D20010A15D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F654819A218353D20010A15D /* SnapKit.framework */; };
+		F6BFDAC62185388C00D5C18F /* TableViewCellSimpleDequeue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BFDAC52185388C00D5C18F /* TableViewCellSimpleDequeue.framework */; };
+		F6BFDAC8218539AB00D5C18F /* CellSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BFDAC7218539AB00D5C18F /* CellSource.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F6548194218350530010A15D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F6548196218350790010A15D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		F654819A218353D20010A15D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		F6BFDAC52185388C00D5C18F /* TableViewCellSimpleDequeue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TableViewCellSimpleDequeue.framework; path = Carthage/Build/iOS/TableViewCellSimpleDequeue.framework; sourceTree = "<group>"; };
+		F6BFDAC7218539AB00D5C18F /* CellSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CellSource.framework; path = Carthage/Build/iOS/CellSource.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F654819B218353D20010A15D /* SnapKit.framework in Frameworks */,
+				F6BFDAC62185388C00D5C18F /* TableViewCellSimpleDequeue.framework in Frameworks */,
+				F6BFDAC8218539AB00D5C18F /* CellSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +135,8 @@
 		F6548199218353D20010A15D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6BFDAC7218539AB00D5C18F /* CellSource.framework */,
+				F6BFDAC52185388C00D5C18F /* TableViewCellSimpleDequeue.framework */,
 				F654819A218353D20010A15D /* SnapKit.framework */,
 			);
 			name = Frameworks;
@@ -271,6 +279,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/TableViewCellSimpleDequeue.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CellSource.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (

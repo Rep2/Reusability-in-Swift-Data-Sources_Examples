@@ -1,0 +1,9 @@
+[submodule "Carthage/Checkouts/SnapKit"]
+	path = Carthage/Checkouts/SnapKit
+	url = https://github.com/SnapKit/SnapKit.git
+[submodule "Carthage/Checkouts/TableViewCellSimpleDequeue"]
+	path = Carthage/Checkouts/TableViewCellSimpleDequeue
+	url = https://github.com/Rep2/TableViewCellSimpleDequeue.git
+[submodule "Carthage/Checkouts/CellSource"]
+	path = Carthage/Checkouts/CellSource
+	url = https://github.com/Rep2/CellSource.git

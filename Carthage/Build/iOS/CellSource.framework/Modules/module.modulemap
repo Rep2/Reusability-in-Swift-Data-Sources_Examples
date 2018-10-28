@@ -1,0 +1,11 @@
+framework module CellSource {
+  umbrella header "CellSource.h"
+
+  export *
+  module * { export * }
+}
+
+module CellSource.Swift {
+    header "CellSource-Swift.h"
+    requires objc
+}

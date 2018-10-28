@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.1.1",
+  "iOS" : [
+    {
+      "name" : "TableViewCellSimpleDequeue",
+      "hash" : "1bbae9fa4a3348f056447dfd799b55521a4b7ac774b5038a3fd13828a5eff6ac"
+    }
+  ]
+}

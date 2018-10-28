@@ -1,5 +1,6 @@
 import SnapKit
 import UIKit
+import TableViewCellSimpleDequeue
 
 class BaseDataSourceViewController: UIViewController {
     let stevenSeagalMovies = [
@@ -18,7 +19,15 @@ class BaseDataSourceViewController: UIViewController {
         return tableView
     }()
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        setupViewController()
+    }
+
     func setupViewController() {
+        tableView.register(cell: MovieTableViewCell.self, reusableCellSource: .class)
+
         view.addSubview(tableView)
 
         tableView.snp.makeConstraints { make in
@@ -29,6 +38,23 @@ class BaseDataSourceViewController: UIViewController {
 
 extension BaseDataSourceViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(for: indexPath) as MovieTableViewCell
 
+        cell.setupCell()
+
+        let movie = stevenSeagalMovies[indexPath.row]
+
+        cell.nameLabel.text = movie.name
+        cell.releaseYearLabel.text = String(movie.releaseYear)
+
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return stevenSeagalMovies.count
+    }
+
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
 }

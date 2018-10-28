@@ -1,0 +1,68 @@
+BCSymbolMap Version: 2.0
+_$S10CellSourceAAOSQAASQ2eeoiySbx_xtFZTW
+_$S10CellSourceAAOSHAASH9hashValueSivgTW
+_$S10CellSourceAAOSHAASH4hash4intoys6HasherVz_tFTW
+_$S10CellSourceAAOSHAAWI
+___swift_memcpy1_1
+___swift_noop_void_return
+_$S10CellSourceAAOwet
+_$S10CellSourceAAOwst
+_$S10CellSourceAAOwxs
+_$S10CellSourceAAOwxg
+_$S10CellSourceAAOwug
+_$S10CellSourceAAOwup
+_$S10CellSourceAAOwui
+_$S10CellSourceAAOSQAAWp
+_$S10CellSourceAAOSQAAWG
+_$S10CellSourceAAOSQAAWr
+_$S10CellSourceAAOSHAAWp
+_$S10CellSourceAAOSHAAWG
+_$S10CellSourceAAOABSQAAWL
+_$S10CellSourceAAOSHAAWr
+_$S10CellSourceAAOWV
+_$S10CellSourceMXM
+_$S10CellSourceAAOMf
+_symbolic ____ 10CellSourceAAO
+_$S10CellSourceAAOMF
+__swift_FORCE_LOAD_$_swiftUIKit_$_CellSource
+__swift_FORCE_LOAD_$_swiftFoundation_$_CellSource
+__swift_FORCE_LOAD_$_swiftDarwin_$_CellSource
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_CellSource
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_CellSource
+__swift_FORCE_LOAD_$_swiftDispatch_$_CellSource
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_CellSource
+__swift_FORCE_LOAD_$_swiftCoreImage_$_CellSource
+__swift_FORCE_LOAD_$_swiftMetal_$_CellSource
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_CellSource
+___swift_reflection_version
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc "/Users/ivanrep/Projects/Reusability in Swift, Data Sources/Carthage/Checkouts/CellSource/CellSource/CellSource.swift" -emit-module-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource.swiftmodule -emit-module-doc-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource.swiftdoc -serialize-diagnostics-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource-master.dia -emit-objc-header-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource-Swift.h -emit-dependencies-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource-master.d -target arm64-apple-ios12.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk -I /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/BuildProductsPath/Release-iphoneos -F /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/BuildProductsPath/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/ModuleCache.noindex -swift-version 4.2 -O -serialize-debugging-options -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/CellSource-generated-files.hmap -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/CellSource-own-target-headers.hmap -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/CellSource-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/CellSource-project-headers.hmap -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/DerivedSources/arm64 -Xcc -I/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/DerivedSources -Xcc -ivfsoverlay -Xcc /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/unextended-module-overlay.yaml -Xcc "-working-directory/Users/ivanrep/Projects/Reusability in Swift, Data Sources/Carthage/Checkouts/CellSource" -parse-as-library -module-name CellSource -num-threads 8 -o /Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/Objects-normal/arm64/CellSource.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/ivanrep/Projects/Reusability in Swift, Data Sources/Carthage/Checkouts/CellSource
+Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)
+/Users/ivanrep/Projects/Reusability in Swift, Data Sources/Carthage/Checkouts/CellSource/CellSource/CellSource.swift
+$S10CellSourceAAOMa
+<compiler-generated>
+$S10CellSourceAAOwui
+$S10CellSourceAAOwup
+$S10CellSourceAAOwug
+$S10CellSourceAAOwxg
+$S10CellSourceAAOwxs
+$S10CellSourceAAOwst
+$S10CellSourceAAOwet
+__swift_noop_void_return
+__swift_memcpy1_1
+$S10CellSourceAAOSHAAWI
+$S10CellSourceAAOABSQAAWl
+$S10CellSourceAAOSQAAWa
+$S10CellSourceAAOSHAAWa
+hash
+CellSource.swift
+/Users/ivanrep/Projects/Reusability in Swift, Data Sources/Carthage/Checkouts/CellSource/CellSource
+combine
+$SSiSHsSH4hash4intoys6HasherVz_tFTW
+hashValue.get
+_hashValue
+__derived_enum_equals
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+/Users/ivanrep/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/CellSource/v0.1.1/Build/Intermediates.noindex/ArchiveIntermediates/CellSource/IntermediateBuildFilesPath/CellSource.build/Release-iphoneos/CellSource.build/DerivedSources/CellSource_vers.c
